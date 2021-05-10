@@ -1,0 +1,12 @@
+body { 
+font-family: sans-serif; 
+color: #616161;
+}
+h1 { 
+ color: #616161;
+ }
+#header,
+.sidebar { 
+background-color: darkslategray; 
+background-image: none;
+}
