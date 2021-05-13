@@ -643,6 +643,7 @@ if ($settings['hash_salt']) {
  */
 # $config['system.site']['name'] = 'My Drupal site';
 # $config['user.settings']['anonymous'] = 'Visitor';
+$config['system.logging']['error_level']='verbose';
 
 /**
  * Fast 404 pages:
@@ -801,7 +802,7 @@ $databases['default']['default'] = array (
   'username' => 'root',
   'password' => '',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => '127.0.0.1',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
